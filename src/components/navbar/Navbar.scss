@@ -1,0 +1,73 @@
+@import "../../scss/variable";
+
+
+
+.container{
+    // position: absolute;
+    background-color: $yellow;   
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+
+}
+
+
+.navbar-left img{
+    width: 100px;
+    margin-left: 2rem;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 1.2rem ;
+    margin-right: 2rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul a li {
+    list-style: none;
+    padding: .5rem;
+    font-weight: 600;
+}
+
+ul a li:hover{
+    background-color:#2d3436 ;
+    color: $sky;
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
+    border-radius: 10px;
+    
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    ul{
+
+        flex-direction: column;
+        
+
+    }
+
+
+}
+
+
