@@ -6,6 +6,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+   
 }
 
 .card-container .cards{
@@ -15,11 +16,11 @@
     align-items: center;
     position: relative;
     gap: 2rem;
+    margin-bottom: 2rem;
 
     h1{
         position: absolute;
         color: $yellow;     
-        // background-color: $sky;
         border-radius: 5px;
         z-index: 1;
         top: 0;
@@ -43,7 +44,6 @@
     }
 
 
-
     h5{
         position: absolute;
         top: 45%;
@@ -59,13 +59,12 @@
         border-bottom-left-radius: 10px;
         color: white;
         background-color: $background-black;
+        // transform: translateY(100%);
         opacity: 0;
         transition: opacity 0.5s;
         line-height: 2rem;
         height: 190px;
         overflow-y: scroll;
-      
-        
 
     }
   
@@ -73,13 +72,9 @@
         display: none;
     }
 
-        .text:hover{
-            opacity: 1;
-            transition: all ease-in-out .5s;
-        }
-   
-}
-        img:hover .text {
-            opacity: .7;
-        }
-
+    .text:hover {
+        opacity: 1;
+        transition: all ease-in-out .5s;
+    }
+     
+    }
