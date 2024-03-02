@@ -27,7 +27,7 @@ body{
 }
 
 .title{
-    color: black;
+    color: skyblue;
     animation: flicker .5s ease-in-out infinite alternate;
 
 }
@@ -47,7 +47,7 @@ body{
 .title:hover {
     color: #cd890c;
     cursor: pointer;
-    text-decoration: underline $yellow;
+    text-decoration: underline $navbar-color;
 }
 
 @-webkit-keyframes flicker {
