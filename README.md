@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-<a href="https://app.netlify.com/sites/horoscope-page-app/overview" target="_blank">Horoscope Page</a>
+<a href="https://horoscope-page-app.netlify.app/" target="_blank">Horoscope Page</a>
 
 ## Description
 
