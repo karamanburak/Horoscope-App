@@ -9,10 +9,9 @@ const Card = ({data}) => {
 
         return(
             <div className="cards" key={id}>
-            <h1>{title} </h1>
+            <h4>{date}</h4>
             <img src={image} alt="" />
-            <h5>{date} </h5>
-            <h4 className="text">{desc} </h4>
+            <h4 className="desc">{desc} </h4>
             </div>
         )
     })}

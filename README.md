@@ -42,6 +42,9 @@ Horoscope App(folder)
 └── README.md
 ```
 
+## Expected Outcome
+
+![Project Snapshot](./src/helper/horoscope-page.gif)
 
 ## Objective
 
