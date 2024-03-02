@@ -1,5 +1,9 @@
 # Horoscope App
 
+## Live Demo
+
+<a href="https://app.netlify.com/sites/horoscope-page-app/overview" target="_blank">Horoscope Page</a>
+
 ## Description
 
 Project aims to create a horoscope app.
