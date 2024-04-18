@@ -1,13 +1,10 @@
 # Horoscope App
 
-## Live Demo
-
-<a href="https://horoscope-page-app.netlify.app/" target="_blank">Horoscope Page</a>
+<a href="https://horoscope-page-app.netlify.app/" target="_blank">Horoscope Page Live</a>
 
 ## Description
 
-Project aims to create a horoscope app.
-
+The project aims to create a bushing application. In the project, the horoscopes are displayed and their expected status according to the relevant date is reflected.
 
 ## Project Skeleton
 
@@ -46,7 +43,7 @@ Horoscope App(folder)
 └── README.md
 ```
 
-## Expected Outcome
+## Outcome
 
 ![Project Snapshot](./src/helper/horoscope-page.gif)
 
@@ -64,11 +61,6 @@ Build a Horoscope App using ReactJS.
 
 - ReactJS
 
-### At the end of the project, you will be able to;
-
-- improve coding skills within HTML & CSS-SCSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 ## Steps to Solution
 
